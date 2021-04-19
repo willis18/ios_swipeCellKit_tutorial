@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A273C72262DA39D00E50793 /* MyHeartBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A273C71262DA39D00E50793 /* MyHeartBtn.swift */; };
 		F2971A6F24FE815500955157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2971A6E24FE815500955157 /* AppDelegate.swift */; };
 		F2971A7124FE815500955157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2971A7024FE815500955157 /* SceneDelegate.swift */; };
 		F2971A7324FE815500955157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2971A7224FE815500955157 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A273C71262DA39D00E50793 /* MyHeartBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeartBtn.swift; sourceTree = "<group>"; };
 		3141A7A8F335EE76532DB69F /* Pods_dynamic_table_view.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dynamic_table_view.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		427EADDD231AD54207018F20 /* Pods-dynamic_table_view.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dynamic_table_view.debug.xcconfig"; path = "Target Support Files/Pods-dynamic_table_view/Pods-dynamic_table_view.debug.xcconfig"; sourceTree = "<group>"; };
 		9223269EB55B5C2558B50A91 /* Pods-dynamic_table_view.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dynamic_table_view.release.xcconfig"; path = "Target Support Files/Pods-dynamic_table_view/Pods-dynamic_table_view.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,7 +54,6 @@
 				427EADDD231AD54207018F20 /* Pods-dynamic_table_view.debug.xcconfig */,
 				9223269EB55B5C2558B50A91 /* Pods-dynamic_table_view.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -94,6 +95,7 @@
 				F2971A7724FE815700955157 /* Assets.xcassets */,
 				F2971A7924FE815700955157 /* LaunchScreen.storyboard */,
 				F2971A7C24FE815700955157 /* Info.plist */,
+				1A273C71262DA39D00E50793 /* MyHeartBtn.swift */,
 			);
 			path = dynamic_table_view;
 			sourceTree = "<group>";
@@ -215,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2971A7324FE815500955157 /* ViewController.swift in Sources */,
+				1A273C72262DA39D00E50793 /* MyHeartBtn.swift in Sources */,
 				F2971A8724FE86ED00955157 /* MyTableViewCell.swift in Sources */,
 				F2971A6F24FE815500955157 /* AppDelegate.swift in Sources */,
 				F2971A7124FE815500955157 /* SceneDelegate.swift in Sources */,
